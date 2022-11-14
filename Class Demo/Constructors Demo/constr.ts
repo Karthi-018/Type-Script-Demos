@@ -25,3 +25,7 @@ s1.name='AAA'
 console.log(s1.id +" "+s1.name+" "+s1.mark)
 var s2 = new Student(102,'karthi',95);
 console.log(s2.id +" "+s2.name+" "+s2.mark)
+
+
+var sd1 = new StudentDetails(105,'Tharun',80);
+sd1.displayStudentDetails();
